@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router'
 import './App.css'
 import English from './components/English'
-import Russian from './components/russian'
+import Russian from './components/Russian'
 import Uzbek from './components/Uzbek'
 
 function App() {
