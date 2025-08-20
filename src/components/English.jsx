@@ -57,7 +57,7 @@ function English(){
            </a>
            
            <div class="bigi-logistics-language-switcher-container">
-               <NavLink to="/" class="bigi-logistics-language-button-item">EN</NavLink>
+               <NavLink to="/" class="bigi-logistics-language-button-item">ENs</NavLink>
                <NavLink to="/russian" class="bigi-logistics-language-button-item">RU</NavLink>
                <NavLink to="/uzbek" class="bigi-logistics-language-button-item">UZ</NavLink>
                
