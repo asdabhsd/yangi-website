@@ -14,12 +14,6 @@ import global from "../flowing images/global.jpg"
 import hally from "../flowing images/hally.jpg"
 
 
-import video4 from "../assets/v8 (1).mp4"
-import video5 from "../assets/v9 (1).mp4"
-import video6 from "../assets/v10 (1).mp4"
-import video7 from "../assets/w1 (1).mp4"
-import img from "../assets/img.mp4"
-
 
 
 function English(){
@@ -57,7 +51,7 @@ function English(){
            </a>
            
            <div class="bigi-logistics-language-switcher-container">
-               <NavLink to="/" class="bigi-logistics-language-button-item">ENs</NavLink>
+               <NavLink to="/" class="bigi-logistics-language-button-item">EN</NavLink>
                <NavLink to="/russian" class="bigi-logistics-language-button-item">RU</NavLink>
                <NavLink to="/uzbek" class="bigi-logistics-language-button-item">UZ</NavLink>
                
@@ -177,11 +171,11 @@ function English(){
                 <h2>News</h2>
                 <p>You can stay updated with the latest news about our courses</p>
                 <div className="news-container">
-                    <video controls src={img}></video>
-                    <video controls preload="none" src={video4}></video>
-                    <video controls preload="none" src={video5}></video>
-                    <video controls preload="none" src={video6}></video>
-                    <video controls preload="none" src={video7}></video>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/H23WIPiXLoA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                " allowfullscreen></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/RZSYmZZnZT8"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/QVd5HlFHCOE"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/Wf-OobJdTy8"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     </div>
             </div>

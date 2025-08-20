@@ -43,7 +43,7 @@
       display: flex;
       flex-direction: row !important;
       margin-top: -0px !important;
-      margin-left: 100px !important;
+      margin-left: 50px !important;
   }
   .txt{
     margin-left: 0!important;
@@ -121,6 +121,7 @@
     height: 40px;
     margin-left: -60px;
     position: fixed;
+    
 
   }
   .pages h4{
@@ -136,8 +137,8 @@
       scale: 0.5;
       display: flex;
       flex-direction: row !important;
-      margin-top: -0px !important;
-      margin-left: 100px !important;
+      margin-top: -10px !important;
+      margin-left: 60px !important;
   }
   .txt{
     margin-left: 0!important;
@@ -436,7 +437,7 @@ p{
   margin-top: 50px;
   gap: 30px;
 }
-.news-container video{
+.news-container iframe{
   width: 350px;
   height: 550px;
   border-radius: 12px;
@@ -1839,8 +1840,18 @@ p{
             display: flex;
             flex-wrap: wrap !important;
             gap: 10px;
-           
+            width: 100%;
+            
+            left: 0px;
+           position: absolute;
 
+        }
+        .bigi-logistics-navbar-wrapper{
+            img{
+                
+                display: none;
+                
+            }
         }
         .footer-content div:nth-child(2){
             margin-left: 0px !important;
@@ -1849,8 +1860,14 @@ p{
         
         .bigi-logistics-language-switcher-container {
             gap: 10px;
+            position: absolute;
+            right: 30px;
+            top: 66%;
+            
             
         }
+        
+
         .bigi-logistics-content-message-section{
             margin-top: 250px;
         }
