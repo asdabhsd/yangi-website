@@ -13,16 +13,6 @@ import dock from "../flowing images/dock.jpg"
 import express from "../flowing images/express.jpg"
 import global from "../flowing images/global.jpg"
 import hally from "../flowing images/hally.jpg"
-import video1 from "../assets/v5 (1).mp4"
-import video2 from "../assets/v6 (1).mp4"
-import video3 from "../assets/v7 (1).mp4"
-import video4 from "../assets/v8 (1).mp4"
-import video5 from "../assets/v9 (1).mp4"
-import video6 from "../assets/v10 (1).mp4"
-import video7 from "../assets/w1 (1).mp4"
-import video8 from "../assets/w2 (1).mp4"
-import video9 from "../assets/w4 (1).mp4"
-import video10 from "../assets/vv (1).mp4"
 
 
 
@@ -181,18 +171,13 @@ function Uzbek(){
                 <h2>Yangiliklar</h2>
                 <p>Kurslarimiz haqidagi so'nggi yangiliklardan xabardor bo'lishingiz mumkin</p>
                 <div className="news-container">
-                <video controls preload="none" src={video1}></video>
-                    <video controls preload="none" src={video2}></video>
-                    <video controls preload="none" src={video3}></video>
-                    <video controls preload="none" src={video4}></video>
-                    <video controls preload="none" src={video5}></video>
-                    <video controls preload="none" src={video6}></video>
-                    <video controls preload="none" src={video7}></video>
-                    <video controls preload="none" src={video8}></video>
-                    <video controls preload="none" src={video9}></video>
-                    <video controls preload="none" src={video10}></video>
-                    
-                </div>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/H23WIPiXLoA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                " allowfullscreen></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/RZSYmZZnZT8"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/QVd5HlFHCOE"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="356" height="634" src="https://www.youtube.com/embed/Wf-OobJdTy8"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    </div>
             </div>
 
             <div id="facts" className="facts">
