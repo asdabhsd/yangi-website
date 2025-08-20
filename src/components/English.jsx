@@ -13,15 +13,16 @@ import express from "../flowing images/express.jpg"
 import global from "../flowing images/global.jpg"
 import hally from "../flowing images/hally.jpg"
 
-import v2  from "../assets/videos/w1 (1).mp4"
-import v3  from "../assets/videos/w2 (1).mp4"
-import v4  from "../assets/videos/w4 (1).mp4"
-import v5  from "../assets/videos/v5 (1).mp4"
-import v6  from "../assets/videos/v6 (1).mp4"
-import v7  from "../assets/videos/v7 (1).mp4"
-import v8  from "../assets/videos/v8 (1).mp4"
-import v9  from "../assets/videos/v9 (1).mp4"
-import v10 from "../assets/videos/v10 (1).mp4"
+import video1 from "../assets/v5 (1).mp4"
+import video2 from "../assets/v6 (1).mp4"
+import video3 from "../assets/v7 (1).mp4"
+import video4 from "../assets/v8 (1).mp4"
+import video5 from "../assets/v9 (1).mp4"
+import video6 from "../assets/v10 (1).mp4"
+import video7 from "../assets/w1 (1).mp4"
+import video8 from "../assets/w2 (1).mp4"
+import video9 from "../assets/w4 (1).mp4"
+import video10 from "../assets/vv (1).mp4"
 
 
 
@@ -47,11 +48,12 @@ function English(){
             <HashLink smooth to="#facts" className="bigi-logistics-nav-link-item">Facts</HashLink>
             <HashLink smooth to="#statistics" className="bigi-logistics-nav-link-item">Statistics</HashLink>
             <HashLink smooth to="#partners" className="bigi-logistics-nav-link-item">Partners</HashLink>
+            <HashLink smooth to="#footer" className="bigi-logistics-nav-link-item">Reach us</HashLink>
 
            </div>   
 
            
-           <a target="_blank"  href="https://docs.google.com/forms/d/e/1FAIpQLScOVHIgqEwZVlcd4Ymu5-upaQm-ihDYc2Zp_5wWSETtLaQDBA/" class="bigi-logistics-register-button-wrapper">
+           <a target="_blank"  href="https://docs.google.com/forms/d/e/1FAIpQLScOVHIgqEwZVlcd4Ymu5-upaQm-ihDYc2Zp_5wWSETtLaQDBA/alreadyresponded" class="bigi-logistics-register-button-wrapper">
                register
                <svg class="bigi-logistics-button-icon-svg" viewBox="0 0 24 24">
                    <path d="M5 12h14m-7-7l7 7-7 7"/>
@@ -66,8 +68,6 @@ function English(){
            </div>
        </div>
    </nav>
-
-
    <div class="bigi-logistics-social-media-sidebar">
        <a href="https://t.me/bigi_study" class="bigi-logistics-social-icon-wrapper telegram-specific">
            <svg class="bigi-logistics-social-icon-svg" target="_blank"  viewBox="0 0 24 24">
@@ -87,8 +87,6 @@ function English(){
            </svg>
        </a>
    </div>
-
-   
    <div id="h" class="bigi-logistics-content-message-section">
        <h1 class="bigi-logistics-main-title-text">International Logistics Academy</h1>
        <div class="bigi-logistics-description-text">
@@ -112,7 +110,6 @@ function English(){
        </div>
    </div>
 </div>
-
            <div id="about" class="about-us-wrapper">
         <div class="about-us-container">
             <div class="about-us-header">
@@ -184,15 +181,16 @@ function English(){
                 <h2>News</h2>
                 <p>You can stay updated with the latest news about our courses</p>
                 <div className="news-container">
-                    <video controls preload="none" src={v2}></video>
-                    <video controls preload="none" src={v3}></video>
-                    <video controls preload="none" src={v4}></video>
-                    <video controls preload="none" src={v5}></video>
-                    <video controls preload="none" src={v6}></video>
-                    <video controls preload="none" src={v7}></video>
-                    <video controls preload="none" src={v8}></video>
-                    <video controls preload="none" src={v9}></video>
-                    <video controls preload="none" src={v10}></video>
+                    <video controls preload="none" src={video1}></video>
+                    <video controls preload="none" src={video2}></video>
+                    <video controls preload="none" src={video3}></video>
+                    <video controls preload="none" src={video4}></video>
+                    <video controls preload="none" src={video5}></video>
+                    <video controls preload="none" src={video6}></video>
+                    <video controls preload="none" src={video7}></video>
+                    <video controls preload="none" src={video8}></video>
+                    <video controls preload="none" src={video9}></video>
+                    <video controls preload="none" src={video10}></video>
                     </div>
             </div>
 
@@ -365,7 +363,7 @@ function English(){
             </div>
         </div>
     </div>
-    <footer class="footer-container">
+    <footer id="footer" class="footer-container">
         <div class="footer-content">
         
             <div class="footer-section">
@@ -388,16 +386,11 @@ function English(){
                 <a href="https://gentle-sunshine-60fff6.netlify.app/static/media/Affidavit.2bf6195cbde30d929bb1.pdf">Affidavit</a>
             </div>
 
-            <div class="footer-section ft">
-                <h4>Email</h4>
-                <a href="mailto:studybigi@gmail.com">studybigi@gmail.com</a>
-            </div>
-
-        
             <div  class="footer-section ft">
-                <h4>Contact Numbers</h4>
+                <h4>Contact</h4>
                 <a href="tel:+998957270017">+998 95 727 00 17</a>
                 <a href="tel:+998905539095">+998 90 553 90 95</a>
+                <a href="mailto:studybigi@gmail.com">studybigi@gmail.com</a>
             </div>
         </div>
 

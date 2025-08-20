@@ -1694,8 +1694,10 @@ p{
         width: 24px;
         height: 24px;
         fill: white;
+    }   
+    .navy{
+        gap: 20px !important;
     }
-
     .bigi-logistics-content-message-section {
         position: absolute;
         right: 80px;

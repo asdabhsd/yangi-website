@@ -13,15 +13,17 @@ import dock from "../flowing images/dock.jpg"
 import express from "../flowing images/express.jpg"
 import global from "../flowing images/global.jpg"
 import hally from "../flowing images/hally.jpg"
-import v2  from "../assets/videos/w1 (1).mp4"
-import v3  from "../assets/videos/w2 (1).mp4"
-import v4  from "../assets/videos/w4 (1).mp4"
-import v5  from "../assets/videos/v5 (1).mp4"
-import v6  from "../assets/videos/v6 (1).mp4"
-import v7  from "../assets/videos/v7 (1).mp4"
-import v8  from "../assets/videos/v8 (1).mp4"
-import v9  from "../assets/videos/v9 (1).mp4"
-import v10 from "../assets/videos/v10 (1).mp4"
+import video1 from "../assets/v5 (1).mp4"
+import video2 from "../assets/v6 (1).mp4"
+import video3 from "../assets/v7 (1).mp4"
+import video4 from "../assets/v8 (1).mp4"
+import video5 from "../assets/v9 (1).mp4"
+import video6 from "../assets/v10 (1).mp4"
+import video7 from "../assets/w1 (1).mp4"
+import video8 from "../assets/w2 (1).mp4"
+import video9 from "../assets/w4 (1).mp4"
+import video10 from "../assets/vv (1).mp4"
+
 
 
 function Uzbek(){
@@ -31,20 +33,20 @@ function Uzbek(){
         <>
                      <div id="home" class="bigi-logistics-main-container">
    
-   <nav class="bigi-logistics-navbar-wrapper">
+   <nav class="bigi-logistics-navbar-wrapper na">
        <div class="bigi-logistics-navbar-content">
            <div class="bigi-logistics-logo-container">
                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l09seY68s86XStKYuMgLFT02gTO4kl.png" alt="BIG-I STUDY" class="bigi-logistics-logo-image"/>
            </div>
            
-           <div class="bigi-logistics-nav-links-container">
+           <div class="bigi-logistics-nav-links-container navy">
             <HashLink smooth to="#home" className="bigi-logistics-nav-link-item">Bosh Sahifa</HashLink>
             <HashLink smooth to="#about" className="bigi-logistics-nav-link-item">Biz Haqimizda</HashLink>
             <HashLink smooth to="#news" className="bigi-logistics-nav-link-item">Yangiliklar</HashLink>
             <HashLink smooth to="#facts" className="bigi-logistics-nav-link-item">Faktlar</HashLink>
             <HashLink smooth to="#statistics" className="bigi-logistics-nav-link-item">Statistika</HashLink>
             <HashLink smooth to="#partners" className="bigi-logistics-nav-link-item">Hamkorlar</HashLink>
-
+            <HashLink smooth to="#footer" className="bigi-logistics-nav-link-item">Biz bilan bog'laning</HashLink>
            </div>
            
            <a target="_blank"  href="https://docs.google.com/forms/d/e/1FAIpQLScOVHIgqEwZVlcd4Ymu5-upaQm-ihDYc2Zp_5wWSETtLaQDBA/" class="bigi-logistics-register-button-wrapper">
@@ -179,17 +181,16 @@ function Uzbek(){
                 <h2>Yangiliklar</h2>
                 <p>Kurslarimiz haqidagi so'nggi yangiliklardan xabardor bo'lishingiz mumkin</p>
                 <div className="news-container">
-                    <video controls src="w1 (1).mp4"></video>
-                    <video controls src={v2}></video>
-                    <video controls src={v3}></video>
-                    <video controls src={v4}></video>
-                    <video controls src={v5}></video>
-                    <video controls src={v6}></video>
-                    <video controls src={v7}></video>
-                    <video controls src={v8}></video>
-                    <video controls src={v9}></video>
-                    <video controls src={v10}></video>
-                    
+                <video controls preload="none" src={video1}></video>
+                    <video controls preload="none" src={video2}></video>
+                    <video controls preload="none" src={video3}></video>
+                    <video controls preload="none" src={video4}></video>
+                    <video controls preload="none" src={video5}></video>
+                    <video controls preload="none" src={video6}></video>
+                    <video controls preload="none" src={video7}></video>
+                    <video controls preload="none" src={video8}></video>
+                    <video controls preload="none" src={video9}></video>
+                    <video controls preload="none" src={video10}></video>
                     
                 </div>
             </div>
@@ -363,7 +364,7 @@ function Uzbek(){
             </div>
         </div>
     </div>
-    <footer class="footer-container">
+    <footer id="footer" class="footer-container">
         <div class="footer-content">
         
             <div class="footer-section">
