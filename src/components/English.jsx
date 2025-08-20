@@ -18,7 +18,7 @@ import video4 from "../assets/v8 (1).mp4"
 import video5 from "../assets/v9 (1).mp4"
 import video6 from "../assets/v10 (1).mp4"
 import video7 from "../assets/w1 (1).mp4"
-
+import img from "../assets/img.mp4"
 
 
 
@@ -177,6 +177,7 @@ function English(){
                 <h2>News</h2>
                 <p>You can stay updated with the latest news about our courses</p>
                 <div className="news-container">
+                    <video controls src={img}></video>
                     <video controls preload="none" src={video4}></video>
                     <video controls preload="none" src={video5}></video>
                     <video controls preload="none" src={video6}></video>
