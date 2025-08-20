@@ -10,7 +10,7 @@ function App() {
       <>
        <Routes>
         <Route path='/' element={<English/>} />
-        {/* <Route path='/russian' element={<Russian/>} /> */}
+        <Route path='/russian' element={<Russian/>} />
         <Route path='/uzbek' element={<Uzbek/>} />
        </Routes>
       </>

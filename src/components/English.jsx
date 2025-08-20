@@ -31,7 +31,7 @@ function English(){
  
     return(
         <>
-                     <div id="home" class="bigi-logistics-main-container">
+     <div id="home" class="bigi-logistics-main-container">
    
    <nav class="bigi-logistics-navbar-wrapper">
        <div class="bigi-logistics-navbar-content">
@@ -47,7 +47,8 @@ function English(){
             <HashLink smooth to="#statistics" className="bigi-logistics-nav-link-item">Statistics</HashLink>
             <HashLink smooth to="#partners" className="bigi-logistics-nav-link-item">Partners</HashLink>
 
-           </div>
+           </div>   
+
            
            <a target="_blank"  href="https://docs.google.com/forms/d/e/1FAIpQLScOVHIgqEwZVlcd4Ymu5-upaQm-ihDYc2Zp_5wWSETtLaQDBA/" class="bigi-logistics-register-button-wrapper">
                register
@@ -182,19 +183,16 @@ function English(){
                 <h2>News</h2>
                 <p>You can stay updated with the latest news about our courses</p>
                 <div className="news-container">
-                    <video controls src="w1 (1).mp4"></video>
-                    <video controls src={v2} loading="lazy"></video>
-                    <video controls src={v3} loading="lazy"></video>
-                    <video controls src={v4} loading="lazy"></video>
-                    <video controls src={v5} loading="lazy"></video>
-                    <video controls src={v6} loading="lazy"></video>
-                    <video controls src={v7} loading="lazy"></video>
-                    <video controls src={v8} loading="lazy"></video>
-                    <video controls src={v9} loading="lazy"></video>
-                    <video controls src={v10} loading="lazy"></video>
-                    
-                    
-                </div>
+                    <video controls preload="none" src={v2}></video>
+                    <video controls preload="none" src={v3}></video>
+                    <video controls preload="none" src={v4}></video>
+                    <video controls preload="none" src={v5}></video>
+                    <video controls preload="none" src={v6}></video>
+                    <video controls preload="none" src={v7}></video>
+                    <video controls preload="none" src={v8}></video>
+                    <video controls preload="none" src={v9}></video>
+                    <video controls preload="none" src={v10}></video>
+                    </div>
             </div>
 
             <div id="facts" className="facts">
