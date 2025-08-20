@@ -1899,3 +1899,12 @@ p{
         font-size: 14px !important;
     }
  }
+ .yt-container iframe {
+    width: 100%;
+    height: 394px;
+    border: none;
+  }
+  /* iframe ichidagi kanal ismini yashirish */
+  .yt-container iframe {
+    overflow: hidden;
+  }

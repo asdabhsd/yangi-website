@@ -13,16 +13,12 @@ import express from "../flowing images/express.jpg"
 import global from "../flowing images/global.jpg"
 import hally from "../flowing images/hally.jpg"
 
-import video1 from "../assets/v5 (1).mp4"   
-import video2 from "../assets/v6 (1).mp4"
-import video3 from "../assets/v7 (1).mp4"
+
 import video4 from "../assets/v8 (1).mp4"
 import video5 from "../assets/v9 (1).mp4"
 import video6 from "../assets/v10 (1).mp4"
 import video7 from "../assets/w1 (1).mp4"
-import video8 from "../assets/w2 (1).mp4"
-import video9 from "../assets/w4 (1).mp4"
-import video10 from "../assets/vv (1).mp4"
+
 
 
 
@@ -181,16 +177,11 @@ function English(){
                 <h2>News</h2>
                 <p>You can stay updated with the latest news about our courses</p>
                 <div className="news-container">
-                    <video controls src="https://youtube.com/shorts/_QZMKBNiJDk?si=MUJNDakOQa3w31zS"></video>
-                    <video controls src="https://www.youtube.com/shorts/_QZMKBNiJDk?feature=share"></video>
-                    <iframe width="354" height="634" src="https://www.youtube.com/embed/_QZMKBNiJDk" title="20-avgust, 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <video controls preload="none" src={video4}></video>
                     <video controls preload="none" src={video5}></video>
                     <video controls preload="none" src={video6}></video>
                     <video controls preload="none" src={video7}></video>
-                    <video controls preload="none" src={video8}></video>
-                    <video controls preload="none" src={video9}></video>
-                    <video controls preload="none" src={video10}></video>
+
                     </div>
             </div>
 
