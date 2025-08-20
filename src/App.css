@@ -1700,11 +1700,11 @@ p{
     }
     .bigi-logistics-content-message-section {
         position: absolute;
-        right: 80px;
+        right: 10px;
         top: 50%;
         transform: translateY(-50%);
         width: 300px;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.462);
         backdrop-filter: blur(15px);
         border-radius: 20px;
         padding: 30px;
@@ -1730,7 +1730,7 @@ p{
     .bigi-logistics-action-buttons-container {
         display: flex;
         gap: 15px;
-        flex-wrap: wrap;
+        
     }
 
     .bigi-logistics-action-button-primary {
@@ -1808,7 +1808,7 @@ p{
         .bigi-logistics-content-message-section {
             position: relative;
             right: auto;
-            top: auto;
+            top: 50%;
             transform: none;
             margin: 150px auto 50px;
             width: 90%;
@@ -1818,7 +1818,7 @@ p{
         .bigi-logistics-social-media-sidebar {
             position: relative;
             left: auto;
-            top: auto;
+            top: 600px;
             transform: none;
             flex-direction: row;
             justify-content: center;
@@ -1829,22 +1829,45 @@ p{
             background-attachment: scroll;
         }
     }
-
+    @media(max-width:1050px){
+        .footer-content div:nth-child(2){
+            margin-left: 0px !important;
+         }
+    }
     @media (max-width: 480px) {
         .bigi-logistics-nav-links-container {
             display: flex;
             flex-wrap: wrap !important;
             gap: 10px;
+           
+
         }
+        .footer-content div:nth-child(2){
+            margin-left: 0px !important;
+         }
+       
         
         .bigi-logistics-language-switcher-container {
             gap: 10px;
+            
+        }
+        .bigi-logistics-content-message-section{
+            margin-top: 250px;
         }
         bigi-logistics-navbar-wrapper{
             display: flex !important;
         }
+        .bigi-logistics-social-media-sidebar{
+            position: absolute;
+            top: 680px;
+            left: 30%;
+        }
         .bigi-logistics-main-title-text {
             font-size: 24px;
+        }
+        bigi-logistics-content-message-section{
+            top: 20% !important;
+            position: absolute;
         }
         
         .bigi-logistics-action-buttons-container {
@@ -1855,4 +1878,14 @@ p{
             flex: none;
         }
     }
-   
+   @media(max-width:380px){
+    .bigi-logistics-social-media-sidebar{
+        left: 23%;
+    }
+    .footer-content div:nth-child(2){
+        margin-left: 0px !important;
+     }
+   }
+ .footer-content div:nth-child(2){
+    margin-left: 30px;
+ }
