@@ -1889,3 +1889,13 @@ p{
  .footer-content div:nth-child(2){
     margin-left: 30px;
  }
+ .cc{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .bt{
+    button{
+        font-size: 14px !important;
+    }
+ }

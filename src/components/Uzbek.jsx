@@ -46,7 +46,7 @@ function Uzbek(){
             <HashLink smooth to="#facts" className="bigi-logistics-nav-link-item">Faktlar</HashLink>
             <HashLink smooth to="#statistics" className="bigi-logistics-nav-link-item">Statistika</HashLink>
             <HashLink smooth to="#partners" className="bigi-logistics-nav-link-item">Hamkorlar</HashLink>
-            <HashLink smooth to="#footer" className="bigi-logistics-nav-link-item">Biz bilan bog'laning</HashLink>
+            <HashLink smooth to="#footer" className="bigi-logistics-nav-link-item">Aloqa</HashLink>
            </div>
            
            <a target="_blank"  href="https://docs.google.com/forms/d/e/1FAIpQLScOVHIgqEwZVlcd4Ymu5-upaQm-ihDYc2Zp_5wWSETtLaQDBA/" class="bigi-logistics-register-button-wrapper">
@@ -86,25 +86,25 @@ function Uzbek(){
    </div>
 
    
-   <div id="h" class="bigi-logistics-content-message-section">
+   <div id="h" class="bigi-logistics-content-message-section ms">
        <h1 class="bigi-logistics-main-title-text">Xalqaro Logistika Akademiyasi</h1>
        <div class="bigi-logistics-description-text">
            <p><strong>3 oy ichida talabgir kasbni egallang!</strong></p>
            <p>Ingliz tili B2 bilim darajasi bilan xalqaro transport logistikasi!</p>
            <p><strong>Orzuingizdagi ishga 3 qadam!</strong></p>
        </div>
-       <div class="bigi-logistics-action-buttons-container">
+       <div class="bigi-logistics-action-buttons-container bt">
            <a href="tel:+1234567890" target="_blank"class="bigi-logistics-action-button-primary">
                <svg class="bigi-logistics-button-icon-svg" viewBox="0 0 24 24">
                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                </svg>
-               Qo'ng'iroq qilish
+               Qo'ng'iroq
            </a>
            <a  href="https://t.me/bigiedu_admin"target="_blank" class="bigi-logistics-action-button-primary">
                <svg class="bigi-logistics-button-icon-svg" viewBox="0 0 24 24">
                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                </svg>
-               Xabar yuborish
+               Xabar
            </a>
        </div>
    </div>

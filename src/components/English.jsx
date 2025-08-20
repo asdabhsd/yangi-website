@@ -181,9 +181,9 @@ function English(){
                 <h2>News</h2>
                 <p>You can stay updated with the latest news about our courses</p>
                 <div className="news-container">
-                    <video controls preload="none" src={video1}></video>
-                    <video controls preload="none" src={video2}></video>
-                    <video controls preload="none" src={video3}></video>
+                    <video controls src="https://youtube.com/shorts/_QZMKBNiJDk?si=MUJNDakOQa3w31zS"></video>
+                    <video controls src="https://www.youtube.com/shorts/_QZMKBNiJDk?feature=share"></video>
+                    <iframe width="354" height="634" src="https://www.youtube.com/embed/_QZMKBNiJDk" title="20-avgust, 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <video controls preload="none" src={video4}></video>
                     <video controls preload="none" src={video5}></video>
                     <video controls preload="none" src={video6}></video>
